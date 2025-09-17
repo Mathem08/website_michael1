@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="content-type" content="text/html" charset="UTF-8"/>
+    <title>Календарный план</title>
+    <script type="text/javascript"></script>
+    <script type="text/javascript"></script>
+    <script type="text/javascript"></script>
+    <script type="text/javascript"></script>
+    <style></style>
+    <style></style>
+    <style media="print"></style>
+</head>
+<body>
+    <div class="top-panel no-print">
+        <div class="content">
+            <div id="top-panel-content" class="top-panel-content hidden">
+                <div class="main-menu-container" id="buttons-menu">
+                    <div class="buttons-menu">
+                        <ul>
+                            <li>
+                                <a href="#" class="ctrl-save-document">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABOklEQVR4nO2YTQ6CMBBGvxUeB9fK9fDnKLpz4wEk3kTc6BkcQ1ISbMACnQ5F5yVNICXTvsxQyACKogwlAbAHcAdAE42D2YcXuwkFqDFOvjKlCbTqmK8XCgGZ8eSQcW1UQiQF8DDXZwALn2Bj511crRIqOmIvfTMTWqTtfeiKnfpkRkqkLRa1xB4tE5vIaJkYRex35ogZi9Qy1fwLMxcZtH5Mp1bUIoUlcZmryDdIUqT+F1uDl8zEvXnur/eD24465xq5lEhiZOrMcI0qE3mPfyo2kakhFYkM0oxEBnGeWqG6LKU5ERMJEYkuy0ZCxNVl8WHdyMzY/fV+MPR3hrjWVxEmSDNioaXFBGlpWWhpMUFaWv9SWuS454a41v9ZkdmWVulowE0pkvVs4ok04CSaeEEbcJJNPEVR8MkbwHgv+NHRPiUAAAAASUVORK5CYII=" alt="">
+                                </a>
+                            </li>
+                            <li class="table-button">
+                                <a href="#" class="ctrl-add-row-after">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB1UlEQVR4nO2ZS04CQRCGv2Bko1wEPIGaqBcwQAxXIBLfd1CQY6joeQTjA3WHHkBdyIY2TWpIxzAyw4yhSepLKmFSdE3/qX5UakBRFEVRlCFZ4Bx4B8yc2RtQFw00PJhQUjtDVNmHVeaPNSczI1Xzignmr0I8wWhGPMNoRjzDaEY8w2hGPMNoRjzDaEY8w2hGPMNoRiZgGwEV4Bp4BL7E7O+W+IbNAp8zUgZeIzQLXoCSj0IyQNOJdQscAHlgSawAHAJt538NGeuNkKbE+AaqEyZnfbvy30CMF0LKjoiNGOM2HTHFWQvJOnuiOulFY6iJ7xlYnKWQirMnwpbTX/EXgI74d2Yp5EbG7kd5UQhH4r+acg6j+EHL1LYf4/IkY/NRXhRCQfz2nonLuoztId3suE3jgA95zo2ZeNQYOXm2seLGCOw02LB1JzPzJKQnIhJXCmksrZUESys1WjIJe2NPK+RE/BfMkOD4bSc4fu8SHr+pkJUC0EjZEVfInvi6CS7E1Cg5JYotO6KyBfSBAbCNJzQcMTVZMmEsSCb67vc/X8j8+qjakRvbXnbLYvZ0Onb2xEBEJC3j/4WiFICTzv+uT8uJEOymtSeQrZ0egE+xe+BSfKlv7B8fH5MBX9/ABwAAAABJRU5ErkJggg==" alt="">
+                                </a>
+                            </li>
+                            <li class="table-button">
+                                <a href="#" class="ctrl-add-row-before">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB1UlEQVR4nO2ZS04CQRCGv2Bko1wEPIGaqBcwQAxXIBLfd1CQY6joeQTjA3WHHkBdyIY2TWpIxzAyw4yhSepLKmFSdE3/qX5UakBRFEVRlCFZ4Bx4B8yc2RtQFw00PJhQUjtDVNmHVeaPNSczI1Xzignmr0I8wWhGPMNoRjzDaEY8w2hGPMNoRjzDaEY8w2hGPMNoRiZgGwEV4Bp4BL7E7O+W+IbNAp8zUgZeIzQLXoCSj0IyQNOJdQscAHlgSawAHAJt538NGeuNkKbE+AaqEyZnfbvy30CMF0LKjoiNGOM2HTHFWQvJOnuiOulFY6iJ7xlYnKWQirMnwpbTX/EXgI74d2Yp5EbG7kd5UQhH4r+acg6j+EHL1LYf4/IkY/NRXhRCQfz2nonLuoztId3suE3jgA95zo2ZeNQYOXm2seLGCOw02LB1JzPzJKQnIhJXCmksrZUESys1WjIJe2NPK+RE/BfMkOD4bSc4fu8SHr+pkJUC0EjZEVfInvi6CS7E1Cg5JYotO6KyBfSBAbCNJzQcMTVZMmEsSCb67vc/X8j8+qjakRvbXnbLYvZ0Onb2xEBEJC3j/4WiFICTzv+uT8uJEOymtSeQrZ0egE+xe+BSfKlv7B8fH5MBX9/ABwAAAABJRU5ErkJggg==" alt="" style="transform: rotate(180deg);">
+                                </a>
+                            </li>
+                            <li class="table-button">
+                                <a href="#" class="ctrl-delete-row">
+                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAw3pUWHRSYXcgcHJvZmlsZSB0eXBlIGV4aWYAAHjabVBbDsMgDPvPKXYESHgkx6Etk3aDHX8JpKitZgkTbGRCoH8/b3gZMCZIuXKRUoIiSRJsWnCYaINjSIMHCN2Ldx2WgSqR3ZxHLn7/1OMKmFvTKl+CeHdjuxuSPJ8fQf4QWUfWxOFBsq+WhxE9oM1vhSJcr1/YeriD5wIjqiN7hTzPqer0jqwiIXaKFJSJymyAbGWgpkVRjpRxyqbwYPFOdCD/5nQCfueDWSGCEU2DAAABg2lDQ1BJQ0MgcHJvZmlsZQAAeJx9kT1Iw0AcxV9btSKVonYQcchQneyiIo61CkWoEGqFVh1MLv2CJg1Jiouj4Fpw8GOx6uDirKuDqyAIfoC4C06KLlLi/5JCixgPjvvx7t7j7h3gb1SYanbFAVWzjHQyIWRzq0LwFT0IYwDAoMRMfU4UU/AcX/fw8fUuxrO8z/05+pW8yQCfQBxnumERbxDPbFo6533iCCtJCvE58YRBFyR+5Lrs8hvnosN+nhkxMul54gixUOxguYNZyVCJp4mjiqpRvj/rssJ5i7NaqbHWPfkLQ3ltZZnrNEeRxCKWIEKAjBrKqMBCjFaNFBNp2k94+Eccv0gumVxlMHIsoAoVkuMH/4Pf3ZqFqUk3KZQAul9s+2MMCO4Czbptfx/bdvMECDwDV1rbX20As5+k19ta9AgIbwMX121N3gMud4DhJ10yJEcK0PQXCsD7GX1TDhi6BfrW3N5a+zh9ADLUVeoGODgExouUve7x7t7O3v490+rvByxYcooAzK4dAAANeGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNC40LjAtRXhpdjIiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iCiAgICB4bWxuczpzdEV2dD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlRXZlbnQjIgogICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIgogICAgeG1sbnM6R0lNUD0iaHR0cDovL3d3dy5naW1wLm9yZy94bXAvIgogICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iCiAgICB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iCiAgIHhtcE1NOkRvY3VtZW50SUQ9ImdpbXA6ZG9jaWQ6Z2ltcDozNmY3NmVlMC1jYzg5LTQ1YjItODIxZi0xMWY0NmM3MmRkMmMiCiAgIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6YjM5ZDc5MTAtODllNS00YmQxLTlkYjMtMWI0NmUyOWRiN2MxIgogICB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6ZTMzMjc2ZjEtNWRhMi00NmI5LWI1OGYtN2ZmNGIxOWIxNmRjIgogICBkYzpGb3JtYXQ9ImltYWdlL3BuZyIKICAgR0lNUDpBUEk9IjIuMCIKICAgR0lNUDpQbGF0Zm9ybT0iTGludXgiCiAgIEdJTVA6VGltZVN0YW1wPSIxNzUwMDA3MjkyMzE5MTY1IgogICBHSU1QOlZlcnNpb249IjIuMTAuMzYiCiAgIHRpZmY6T3JpZW50YXRpb249IjEiCiAgIHhtcDpDcmVhdG9yVG9vbD0iR0lNUCAyLjEwIgogICB4bXA6TWV0YWRhdGFEYXRlPSIyMDI1OjA2OjE1VDIwOjA4OjA5KzAzOjAwIgogICB4bXA6TW9kaWZ5RGF0ZT0iMjAyNTowNjoxNVQyMDowODowOSswMzowMCI+CiAgIDx4bXBNTTpIaXN0b3J5PgogICAgPHJkZjpTZXE+CiAgICAgPHJkZjpsaQogICAgICBzdEV2dDphY3Rpb249InNhdmVkIgogICAgICBzdEV2dDpjaGFuZ2VkPSIvIgogICAgICBzdEV2dDppbnN0YW5jZUlEPSJ4bXAuaWlkOmQ4YzZmYzU5LWNhZGUtNDEyNS05MmZjLTNiOGYyNGEyNjI0OCIKICAgICAgc3RFdnQ6c29mdHdhcmVBZ2VudD0iR2ltcCAyLjEwIChMaW51eCkiCiAgICAgIHN0RXZ0OndoZW49IjIwMjUtMDYtMTVUMjA6MDg6MTIrMDM6MDAiLz4KICAgIDwvcmRmOlNlcT4KICAgPC94bXBNTTpIaXN0b3J5PgogIDwvcmRmOkRlc2NyaXB0aW9uPgogPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgIAo8P3hwYWNrZXQgZW5kPSJ3Ij8+kRyKUgAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB+kGDxEIDPY3CngAAAHTSURBVGje7Zi7TgJREIY/MNAoj2DsxScQE7HQ0iAhvIKBEC8PoaDPoJWXhzE2glEU7BR7tNBC1sI5emKMwO4hy5L5k8nssjuz5w9zy4BCoVAoFAoAksAB0AG8iMkTUBUO1CJI4LfsI6w8YDGC0ZQx/0xMLgBiEU0NDyA+KYmuRPpUwSJwDjSBV5EmcCbPkqOKMc+RrzzwMECVaQMbrs/vgkgcOLR8XQFbwDwwLZIGtoG69V7NQVQ4JWJIvAGbfQ4XB0ryriEzFkTyFonlIeyyFplc2ESSVk5s+rAvi20LSIRJpGjlhJ9YnwIa4qMQhEjQRDOV5wjo+bD/AI7lOuesfPnAndjOB/h+Wnw0wwytrtim/nDcTwxSct8NM7QmZkR5Fj1r/RYbUAzmRHfCJHIpejWAjzXRF2Emuym/9QDl99pF+XXRENtiX/JhXxHb+7AbouklZkTJDmG3ArxL/1kfl6GxZpEpS8j8F04VIfG9OBinMd7exjSAHWl2MyILwK6VEz0hMVZjPNaY0RqgGd4HDKeRE0GStgCcArfAi8gNcCLPEg6/5wGeroN0HTRCImbGyUTw/Euin+Brmx31JfaeGTOq/CyzoySPQiKJQqFQKBQK+AQ2iXbrwc8nvgAAAABJRU5ErkJggg==" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <ul id="tab-control" class="tab-control">
+                    <li>
+                        <input id="tab-control-data-table"
+                               type="radio"
+                               name="tab-select"
+                               value="tab-table"
+                               checked="checked"
+                               data-class-target="data-table"
+                               data-remove-class="table-extended" />
+                        <label for="tab-control-data-table">Таблица</label>
+                    </li>
+                    <li>
+                        <input id="tab-control-data-table-extended"
+                                type="radio"
+                                name="tab-select"
+                                value="tab-table"
+                                data-class-target="data-table"
+                                data-add-class="table-extended" />
+                        <label for="tab-control-data-table-extended">Таблица, расширенная</label>
+                    </li>
+                    <li>
+                        <input id="tab-control-gant-diagram"
+                               type="radio"
+                               name="tab-select"
+                               value="tab-gant-diagram"
+                               data-class-target="tab-gant-diagram"
+                               data-execute="GantDiagramManager.getInstance().update();" />
+                        <label for="tab-control-gant-diagram">Диаграмма Ганта</label>
+                    </li>
+                    <li>
+                        <input id="tab-control-chart"
+                               type="radio"
+                               name="tab-select"
+                               value="tab-chart"
+                               data-class-target="tab-chart"
+                               data-execute="ChartManager.getInstance().update()" />
+                        <label for="tab-control-chart">Графики</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container no-print">
+        <div id="tab-start" class="tab active">
+            <div class="start-menu" >
+                <ul class="accordion" id="accordion">
+                    <li>
+                        <input id="menu-new" type="radio" name="menu" value="new" checked="checked" />
+                        <label for="menu-new">Новый документ</label>
+                        <div>
+                            <div>
+                                <div class="form-row">
+                                    <label for="new-row-count">Количество строк:</label>
+                                    <input id="new-row-count" type="number" step="1" min="1" value="1" />
+                                    <div class="error hidden"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <input id="menu-load" type="radio" value="load" name="menu" />
+                        <label for="menu-load">Загрузить документ</label>
+                        <div>
+                            <div>
+                                <div class="form-row">
+                                    <label for="load-file">Выберите файл</label>
+                                    <input id="load-file" type="file"  accept=".json, application/json" />
+                                    <div class="error hidden"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <button id="start-button" class="button-start">Далее</button>
+            </div>
+        </div>
+        <div id="tab-table" class="tab">
+            <div class="table-container">
+                <table id="data-table" class="data-table table-fixed">
+                    <thead>
+                        <tr class="resizer-row">
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th class="extended-col"></th>
+                            <th class="extended-col"></th>
+                            <th class="extended-col"></th>
+                            <th class="extended-col"></th>
+                            <th class="extended-col"></th>
+                        </tr>
+                        <tr>
+                            <th rowspan="3" class="sticky-col">
+                                № п.п.
+                            </th>
+                            <th rowspan="3">
+                                Шифр ГЭСН
+                            </th>
+                            <th rowspan="3">
+                                Наименование работ
+                            </th>
+                            <th colspan="4">
+                                Объем
+                            </th>
+                            <th colspan="4">
+                                Норматив
+                            </th>
+                            <th colspan="2">
+                                Количество в смену
+                            </th>
+                            <th rowspan="3">
+                                Кол. смен в сутках
+                            </th>
+                            <th rowspan="3">
+                                Продолжительность, дней
+                            </th>
+                            <th rowspan="3">
+                                Начало
+                            </th>
+                            <th rowspan="3">
+                                Окончание
+                            </th>
+                            <th rowspan="3" class="extended-col">
+                                Критический путь
+                            </th>
+                            <th rowspan="3" class="extended-col">
+                                Расчетное значение для диаграммы
+                            </th>
+                            <th rowspan="3" class="extended-col">
+                                Стоимость единичного объема по ФЕР
+                            </th>
+                            <th rowspan="3" class="extended-col">
+                                Стоимость работ всего
+                            </th>
+                            <th rowspan="3" class="extended-col">
+                                Стоимость работ в смену
+                            </th>
+                        </tr>
+                        <tr>
+                            <th class="hidden"></th>
+                            <th rowspan="2">
+                                Ед. изм.
+                            </th>
+                            <th rowspan="2">
+                                Кол. на этаж
+                            </th>
+                            <th rowspan="2">
+                                Кол. этажей
+                            </th>
+                            <th rowspan="2">
+                                Кол.
+                            </th>
+                            <th colspan="2">
+                                На ед. изм.
+                            </th>
+                            <th colspan="2">
+                                На объем
+                            </th>
+                            <th rowspan="2">
+                                Рабочих, чел.
+                            </th>
+                            <th rowspan="2">
+                                Машин, шт.
+                            </th>
+                        </tr>
+                        <tr>
+                            <th class="hidden"></th>
+                            <th>
+                                Затраты труда, чел. час.
+                            </th>
+                            <th>
+                                Затраты времени машин, маш. час.
+                            </th>
+                            <th>
+                                Затраты труда, чел. час.
+                            </th>
+                            <th>
+                                Затраты времени машин, маш. час.
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="empty-row hidden">
+                            <td class="sticky-col var-number"></td>
+                            <td>
+                                <textarea type="text" class="var-cipher"></textarea>
+                            </td>
+                            <td>
+                                <textarea type="text" class="var-name"></textarea>
+                            </td>
+                            <td>
+                                <input type="text" class="var-unit-of-measurement" />
+                            </td>
+                            <td>
+                                <input type="number" min="0" class="var-count-per-floor auto-calc" />
+                            </td>
+                            <td>
+                                <input type="number" min="0" step="1" class="var-floor-count auto-calc" />
+                            </td>
+                            <td class="var-count"></td>
+                            <td>
+                                <input type="number" min="0" step="1" class="var-unit-man-hours auto-calc" />
+                            </td>
+                            <td>
+                                <input type="number" min="0" step="1" class="var-unit-machine-hours auto-calc" />
+                            </td>
+                            <td class="var-total-man-hours"><!--8--></td>
+                            <td class="var-total-machine-hours"><!--9-->
+                            </td>
+                            <td>
+                                <input type="number" min="0" step="1" class="var-man-count auto-calc"/>
+                            </td>
+                            <td>
+                                <input type="number" min="0" step="1" class="var-machine-count auto-calc" />
+                            </td>
+                            <td>
+                                <input type="number" min="0" class="var-work-shift-per-day auto-calc" />
+                            </td>
+                            <td class="var-days-count"><!--13--></td>
+                            <td> <!--14-->
+                                <input type="number" min="0" step="1" class="var-day-start auto-calc" />
+                            </td>
+                            <td class="var-day-end"><!--15--></td>
+                            <td class="extended-col">
+                                <input type="checkbox" class="var-is-critical auto-calc" />
+                            </td>
+                            <td class="extended-col var-gant-calc-value"></td>
+                            <td class="extended-col">
+                                <input type="number" min="0" class="var-unit-price auto-calc" />
+                            </td>
+                            <td class="extended-col var-total-price"></td>
+                            <td class="extended-col var-work-shift-price"></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div id="table-menu" class="table-menu">
+                    <ul>
+                        <li>
+                            <a id="copy" href="#" >
+                                <span>Копировать</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="paste" href="#" >
+                                <span>Вставить</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="add-row-before" href="#" >
+                                <span>Добавить строку выше</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="add-row-after" href="#">
+                                <span>Добавить строку ниже</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="remove-row" href="#">
+                                <span>Удалить строку</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="tab-gant-diagram" class="tab">
+            <ul id="gant-diagram" class="gant-diagram">
+                <li class="item empty-row hidden">
+                    <div class="caption">
+                        <span class="var-number"></span>
+                        <span class="var-name"></span>
+                    </div>
+                    <div class="line"></div>
+                </li>
+            </ul>
+        </div>
+        <div id="tab-chart" class="tab">
+            <div id="chart-container" class="chart">
+                <table class="separator chart-container">
+                    <thead>
+                        <tr class="resizer-row">
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="2">
+                                <canvas id="chart-labor-efficiency"></canvas>
+                            </td>
+                            <td colspan="2">
+                                <canvas id="chart-investment-efficiency"></canvas>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td colspan="2">
+                                <canvas id="chart-labor-resource-distribution"></canvas>
+                            </td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="print-only">
+        <div class="print-container">
+            <div class="table-container">
+                <table id="data-table-print" class="data-table table-extended"></table>
+            </div>
+        </div>
+        <div class="print-container">
+            <ul id="gant-diagram-print" class="gant-diagram">
+            </ul>
+        </div>
+        <div class="print-container">
+            <table class="separator chart-container">
+                <thead>
+                <tr class="resizer-row">
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td colspan="2">
+                        <canvas id="chart-labor-efficiency-print"></canvas>
+                    </td>
+                    <td colspan="2">
+                        <canvas id="chart-investment-efficiency-print"></canvas>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <canvas id="chart-labor-resource-distribution-print"></canvas>
+                    </td>
+                    <td></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
